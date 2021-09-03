@@ -7,7 +7,7 @@ function loopsomar(){
         valor2 = prompt("Por favor, digite o segundo valor");
         resultado = parseInt(valor1) + parseInt(valor2);
         alert("O seu resultado é: " + resultado)
-        parar = prompt("Deseja efetuar outra soma?")
+        parar = prompt("Deseja efetuar outra soma? S/N")
 
     } while (parar.toUpperCase() == "S");
 }
