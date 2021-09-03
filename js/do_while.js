@@ -10,6 +10,4 @@ function loopsomar(){
         parar = prompt("Deseja efetuar outra soma?")
 
     } while (parar.toUpperCase() == "S");
-
-    document.getElementById("conteudo").innerText = parar
 }

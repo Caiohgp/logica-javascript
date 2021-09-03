@@ -15,5 +15,5 @@ function calcular(){
         resultado = parseInt(valor1) / parseInt(valor2)
     }
 
-    document.getElementById("resultado").innerText = "Resultado = " + resultado;
+    document.getElementById("conteudo").innerText = "Resultado = " + resultado;
 }
