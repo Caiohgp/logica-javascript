@@ -1,4 +1,4 @@
-function calcular(){
+function calcular2(){
     var valor1, valor2, operacao, resultado
     alert("Olá, esse é a minha calculadora :D")
     alert("Vou te pedir 2 números, depois você vai me dizer a operação que deseja realizar")
@@ -27,5 +27,5 @@ function calcular(){
 
     }
 
-    document.getElementById("resultado").innerText = "Resultado = " + resultado;
+    document.getElementById("conteudo").innerText = "Resultado = " + resultado;
 }
