@@ -20,5 +20,5 @@ function calculaMediaNotas(){
     else{
         alert("Reprovado!")
     }
-    document.getElementById("conteudo").innerText = "Olá," + nome + ", a sua média é " + media
+    document.getElementById("conteudo").innerText = "Olá " + nome + ", a sua média é " + media
 }
